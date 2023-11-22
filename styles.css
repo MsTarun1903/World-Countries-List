@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+}
+
+
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    background: url("images/globe-2.jpg");
+    background-size: cover;
+    background-position: center 40%;
+}
+
+h1{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    font-size: 55px;
+    letter-spacing: 30px;
+    margin-bottom: 5px;
+}
+
+h2{
+    margin-top: 5px;
+    color: #fff;
+}
+
+
+.Starting-button,.any-button,.Alphabet{
+  background-color: purple;
+  border-radius: 8px;
+  transition-duration:0.5s ;
+
+}
+
+.Starting-button:focus,.any-button:focus,.Alphabet:focus{
+    background-color:red;
+    color:azure;
+    transition: top 1.2s ease-out;
+}
+
+
+
+#input-box{
+margin-top: 20px;
+margin-left: 25px;
+padding: 10px;
+width: 400px;
+align-items: center;
+justify-content: center;
+border-radius: 12px;
+background-color: antiquewhite;
+}
+ #input-box::placeholder{
+    align-items: center;
+ }
+
+
+#search{
+    margin-left: 5px;
+    background: none;
+    border: 0;
+    font-size: 20px;
+}
+
+.country-box{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-image: url("images/map_image.jpg");
+}
+
+.selected {
+    background-color:maroon; 
+    color: #ccc;
+}
